@@ -2,7 +2,7 @@
 
 > Gerçek para yoktur, hiçbir borsaya emir gitmez. Yatırım tavsiyesi değildir.
 
-Son güncelleme: 21.11.2026 17:19 UTC
+Son güncelleme: 21.11.2026 18:00 UTC
 
 | Gösterge | Değer |
 |---|---|
