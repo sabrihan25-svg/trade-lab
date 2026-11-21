@@ -1,0 +1,17 @@
+# jarvis: ad=Güvenlik taraması | bolum=Altyapı | gorev=Her push'ta anahtar ve kişisel veri benzeri içerik arar | tip=bakim
+name: guvenlik-tarama
+on:
+  push:
+  pull_request:
+concurrency:
+  group: guvenlik-${{ github.ref }}
+  cancel-in-progress: true
+permissions:
+  contents: read
+jobs:
+  tara:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/guvenlik_tarama.py

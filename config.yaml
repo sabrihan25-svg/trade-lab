@@ -1,0 +1,20 @@
+# Bütün bot ayarları burada. GitHub web editöründen değiştirilir; sonraki koşuda geçerli olur.
+# SANAL hesap: gerçek para yok.
+start_equity_usd: 5000
+bots:
+  crypto_rules:
+    type: crypto_trend
+    enabled: true
+    symbols: ["BTCUSDT", "ETHUSDT"]
+    leverage: 1
+    fee_rate: 0.0005
+    slippage_rate: 0.0003
+    position_pct: 0.33
+    max_open: 3
+    rsi_low: 35
+    rsi_high: 65
+    tp_atr: 4
+    sl_atr: 2
+    max_hold_minutes: 2880
+    max_trades_per_day: 10
+    daily_loss_limit_pct: 0.05

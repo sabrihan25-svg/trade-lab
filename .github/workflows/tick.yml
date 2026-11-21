@@ -1,0 +1,35 @@
+# jarvis: ad=Sanal kripto botu | bolum=Trade | gorev=Fiyatı okur, sanal hesapta pozisyon açar/kapatır, README'yi yeniler | tip=ajan
+name: tick
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"   # tam saatten kaçınmak için kaydırıldı
+  workflow_dispatch:
+concurrency:
+  group: tick
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m lab.run
+      - name: Durumu depoya yaz (başarısızsa iş KIRMIZI olur)
+        run: |
+          git config user.name "trade-lab-bot"
+          git config user.email "trade-lab-bot@users.noreply.github.com"
+          git add state README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "tik: durum güncellendi"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 5
+          done
+          echo "push başarısız" && exit 1
