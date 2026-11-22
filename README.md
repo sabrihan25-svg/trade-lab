@@ -2,21 +2,23 @@
 
 > Gerçek para yoktur, hiçbir borsaya emir gitmez. Yatırım tavsiyesi değildir.
 
-Son güncelleme: 22.11.2026 10:08 UTC
+Son güncelleme: 22.11.2026 11:02 UTC
 
 | Gösterge | Değer |
 |---|---|
 | Başlangıç | 5000.00 $ |
-| Güncel varlık | 5000.00 $ |
-| Bugün | +0.00 $ |
-| Toplam | +0.00 $ (+0.00%) |
+| Güncel varlık | 4998.68 $ |
+| Bugün | -1.32 $ |
+| Toplam | -1.32 $ (-0.03%) |
 | Kapanan işlem | 0 |
 | Kazanma oranı | - |
-| Ödenen komisyon | 0.00 $ |
+| Ödenen komisyon | 0.83 $ |
 
 ## Açık pozisyonlar
 
-Yok.
+| Bot | Sembol | Yön | Giriş | Hedef | Stop |
+|---|---|---|---|---|---|
+| crypto_rules | ETHUSDT | SHORT | 1709.57 | 1632.88 | 1747.91 |
 
 ## Son işlemler
 
@@ -24,4 +26,4 @@ Henüz yok.
 
 ## Son olaylar
 
-- Yok.
+- 22.11 11:02 — crypto_rules: ETHUSDT SHORT açıldı @ 1709.57
