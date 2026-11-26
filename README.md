@@ -2,21 +2,23 @@
 
 > Gerçek para yoktur, hiçbir borsaya emir gitmez. Yatırım tavsiyesi değildir.
 
-Son güncelleme: 26.11.2026 02:55 UTC
+Son güncelleme: 26.11.2026 03:59 UTC
 
 | Gösterge | Değer |
 |---|---|
 | Başlangıç | 5000.00 $ |
-| Güncel varlık | 5131.28 $ |
-| Bugün | +0.00 $ |
-| Toplam | +131.28 $ (+2.63%) |
+| Güncel varlık | 5129.92 $ |
+| Bugün | -1.35 $ |
+| Toplam | +129.92 $ (+2.60%) |
 | Kapanan işlem | 3 |
 | Kazanma oranı | %67 |
-| Ödenen komisyon | 4.86 $ |
+| Ödenen komisyon | 5.71 $ |
 
 ## Açık pozisyonlar
 
-Yok.
+| Bot | Sembol | Yön | Giriş | Hedef | Stop |
+|---|---|---|---|---|---|
+| crypto_rules | BTCUSDT | SHORT | 60768.31 | 58152.32 | 62076.31 |
 
 ## Son işlemler
 
@@ -28,6 +30,7 @@ Yok.
 
 ## Son olaylar
 
+- 26.11 03:59 — crypto_rules: BTCUSDT SHORT açıldı @ 60768.31
 - 25.11 12:22 — crypto_rules: BTCUSDT kapandı (hedef) net +83.05
 - 24.11 03:42 — crypto_rules: ETHUSDT kapandı (hedef) net +87.41
 - 23.11 17:29 — crypto_rules: BTCUSDT SHORT açıldı @ 61705.93
