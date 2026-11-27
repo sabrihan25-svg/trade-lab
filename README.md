@@ -2,29 +2,29 @@
 
 > Gerçek para yoktur, hiçbir borsaya emir gitmez. Yatırım tavsiyesi değildir.
 
-Son güncelleme: 27.11.2026 14:40 UTC
+Son güncelleme: 27.11.2026 15:44 UTC
 
 | Gösterge | Değer |
 |---|---|
 | Başlangıç | 5000.00 $ |
-| Güncel varlık | 5130.26 $ |
-| Bugün | -3.08 $ |
-| Toplam | +130.26 $ (+2.61%) |
-| Kapanan işlem | 4 |
-| Kazanma oranı | %50 |
-| Ödenen komisyon | 8.26 $ |
+| Güncel varlık | 5146.60 $ |
+| Bugün | +13.27 $ |
+| Toplam | +146.60 $ (+2.93%) |
+| Kapanan işlem | 5 |
+| Kazanma oranı | %60 |
+| Ödenen komisyon | 9.07 $ |
 
 ## Açık pozisyonlar
 
 | Bot | Sembol | Yön | Giriş | Hedef | Stop |
 |---|---|---|---|---|---|
-| crypto_rules | ETHUSDT | SHORT | 1730.66 | 1672.38 | 1759.80 |
 | crypto_rules | BTCUSDT | SHORT | 60216.52 | 58624.72 | 61012.42 |
 
 ## Son işlemler
 
 | Kapanış | Bot | Sembol | Yön | Net | Neden |
 |---|---|---|---|---|---|
+| 27.11 15:44 | crypto_rules | ETHUSDT | SHORT | +54.45 $ | hedef |
 | 27.11 09:04 | crypto_rules | BTCUSDT | SHORT | -38.68 $ | stop |
 | 25.11 12:22 | crypto_rules | BTCUSDT | SHORT | +83.05 $ | hedef |
 | 24.11 03:42 | crypto_rules | ETHUSDT | SHORT | +87.41 $ | hedef |
@@ -32,6 +32,7 @@ Son güncelleme: 27.11.2026 14:40 UTC
 
 ## Son olaylar
 
+- 27.11 15:44 — crypto_rules: ETHUSDT kapandı (hedef) net +54.45
 - 27.11 14:40 — crypto_rules: BTCUSDT SHORT açıldı @ 60216.52
 - 27.11 09:04 — crypto_rules: ETHUSDT SHORT açıldı @ 1730.66
 - 27.11 09:04 — crypto_rules: BTCUSDT kapandı (stop) net -38.68
@@ -39,4 +40,3 @@ Son güncelleme: 27.11.2026 14:40 UTC
 - 25.11 12:22 — crypto_rules: BTCUSDT kapandı (hedef) net +83.05
 - 24.11 03:42 — crypto_rules: ETHUSDT kapandı (hedef) net +87.41
 - 23.11 17:29 — crypto_rules: BTCUSDT SHORT açıldı @ 61705.93
-- 23.11 16:29 — crypto_rules: ETHUSDT SHORT açıldı @ 1773.04
