@@ -2,14 +2,14 @@
 
 > Gerçek para yoktur, hiçbir borsaya emir gitmez. Yatırım tavsiyesi değildir.
 
-Son güncelleme: 28.11.2026 02:55 UTC
+Son güncelleme: 28.11.2026 03:56 UTC
 
 | Gösterge | Değer |
 |---|---|
 | Başlangıç | 5000.00 $ |
-| Güncel varlık | 5152.47 $ |
-| Bugün | -0.66 $ |
-| Toplam | +152.47 $ (+3.05%) |
+| Güncel varlık | 5153.17 $ |
+| Bugün | +0.03 $ |
+| Toplam | +153.17 $ (+3.06%) |
 | Kapanan işlem | 5 |
 | Kazanma oranı | %60 |
 | Ödenen komisyon | 9.07 $ |
